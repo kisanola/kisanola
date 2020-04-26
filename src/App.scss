@@ -14,7 +14,8 @@ html, body {
   align-items: center;
 
   .app {
-    max-width: 300px;
+    max-width: 80%;
+    width: 500px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -23,6 +24,7 @@ html, body {
       max-width: 100%;
     }
     p {
+      text-align: center;
       font-size: 3rem;
       color: #3737fb;
       margin-top: 0;
